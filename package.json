@@ -1,0 +1,31 @@
+{
+  "name": "@sevensigma/web-storage-cache",
+  "version": "1.0.0",
+  "description": "A module providing a cache that uses the Web Storage API.",
+  "main": "dist/WebStorageCache.js",
+  "types": "dist/WebStorageCache.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/tslint --project ./tsconfig.json",
+    "prebuild": "npm run lint",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sevensigma-au/web-storage-cache.git"
+  },
+  "author": "sevensigma-au",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sevensigma-au/web-storage-cache/issues"
+  },
+  "homepage": "https://github.com/sevensigma-au/web-storage-cache#readme",
+  "devDependencies": {
+    "tslint": "5.6.0",
+    "typescript": "2.4.2"
+  },
+  "dependencies": {
+    "@types/crypto-js": "3.1.38",
+    "crypto-js": "3.1.9-1"
+  }
+}
